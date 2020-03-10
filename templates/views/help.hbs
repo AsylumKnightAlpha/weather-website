@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Help</title> <!--Tab Title-->
+        <link rel="icon" href="/img/weather.png">
+        <!--LOADING style sheet-->
+        <link rel ="stylesheet" href ="/css/styles.css"> <!--ABSOLUTE PATH; 'LINK' empty element: no closing tag bracket; key value pairs: rel: relationship href: loading -->
+    </head>
+
+    <body>
+<div class="main-content">
+            {{>header}} <!--partial being injected from header.hbs-->
+        <!--<h1>{{title}}</h1>-->
+        <p>{{helpText}}</p>
+            
+            </div>
+        
+        {{>footer}} <!--Style is kept to provide links and other common features i.e. footer and header-->
+        
+    </body>
+</html>

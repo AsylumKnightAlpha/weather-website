@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<!--Boilerplate: DOCTYPE html, html, head, body--->
+<!--DYNAMIC PAGE: TRANSITIONING FROM STATIC TO DYNAMIC--->
+<html>
+    <head>
+        <title>Weather</title> <!--Tab Title-->
+        <link rel="icon" href="/img/weather.png">
+    <!--LOADING style sheet-->
+        <link rel ="stylesheet" href ="/css/styles.css"> <!--ABSOLUTE PATH; 'LINK' empty element: no closing tag bracket; key value pairs attribute: rel: relationship href: loading -->
+    <!--LOADING JS-->
+    <!--MOVED DOWN FOR PRIORITY EXECUTION <script src ="/js/app.js"></script><!---script: has BOTH opening and closing tag bracket; src attribute-->
+    </head>
+
+    <body>
+        <div class ="main-content">
+            {{>header}}
+            <p>Use this site to get your weather!</p>
+
+            <form> <!--Markup; FORMS AUTOMATICALLY REFRESH AT SUBMIT-->
+                <input placeholder ="Location"> <!--dialog box with label-->
+                <button>Search</button> <!--Search button--->
+
+            </form>
+
+            <p id="message-1"> <!--creating id allows only manipulation to id parts only--->
+
+            </p>
+            <p id="message-2">
+
+            </p>
+
+        </div>
+        
+        
+        <!--<h1>{{title}}</h1>--> <!--curly braces handlebar syntax for injecting object values-->
+        {{>footer}}
+    <script src ="/js/app.js"></script><!--script: has BOTH opening and closing tag bracket; src attribute-->
+    
+        <!--Flex Box-->
+        
+    </body>
+</html>

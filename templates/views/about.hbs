@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About</title> <!--Tab Title-->
+        <link rel="icon" href="/img/weather.png">
+        <!--LOADING style sheet-->
+        <link rel ="stylesheet" href ="/css/styles.css"> <!--ABSOLUTE PATH; 'LINK' empty element: no closing tag bracket; key value pairs: rel: relationship href: loading -->
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <!--<h1>{{title}}</h1>-->
+            <img class="portrait" src="/img/robot.png"> <!--imaging element: empty tag-->
+            <!--<p>Created by {{name}}</p>-replaced by footer-->
+
+        </div>
+        
+        {{>footer}}
+
+    </body>
+</html>

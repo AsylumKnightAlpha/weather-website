@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!--Boilerplate: DOCTYPE html, html, head, body-->
+
+<html>
+    <head>
+        <link rel="icon" href="/img/weather.png">
+    <!--LOADING style sheet-->
+        <link rel ="stylesheet" href ="/css/styles.css"> <!--ABSOLUTE PATH; 'LINK' empty element: no closing tag bracket; key value pairs attribute: rel: relationship href: loading -->
+    <!--LOADING JS-->
+    
+
+    <body>
+        <div class="main-content">
+
+            {{>header}}
+            <p>{{errorMessage}}</p> <!--This file provides any * card with a DEFAULTED message, same style though-->
+            
+            </div>
+        
+        {{>footer}} <!--Style is kept to provide links and other common features i.e. footer and header-->
+        
+    </body>
+</html>

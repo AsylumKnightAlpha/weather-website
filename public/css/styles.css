@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    color: #333333; /*DARK GREY: this set for entire body; HEX is color code used in Sketch or Photoshop*/
+    font-family: arial; /*San Serif font: styles to ind characters*/
+    max-width: 650px; /*property: set max constrain page width; uses half of page here*/
+    margin: 0 auto; /*spacing property: evenly distribute left and right by auto; 0 means no addition top and bottom *//*gives spacing outside box*/
+    padding: 0  16px; /*spacing property: 16 pixels right and left between browser and content*//*gives spacing w/in box*/
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*vh = view point height = all space in page*/
+}
+
+.main-content {
+    flex-grow: 1;
+
+}
+
+footer { /*markup (file) is footer.hbs*/
+    color: #888888; /*footer color*/
+    border-top: 1px solid #eeeeee; /*border top of footer: width, dash/solid, color*/
+    margin-top: 16px; /*outside box: */
+    padding: 16px 0; /*inside box: single value applies to all, here two values: top/btm, rt/lft */
+   
+} 
+
+header{ /*Title margin spacing*/
+    margin-top: 16px; /*space above title*/
+    margin-bottom: 48px; /*space below title*/
+}
+
+h1 { /*content*/
+    font-size: 64px; /*size of title is 64px*/
+    margin-bottom: 16px;
+}
+
+header a { /*navigation items*/
+    color: #888888; /*navigation color*/
+    margin-right: 16px; /*adds space on the right side for each nav item*/
+    text-decoration: none; /*removes the underline of link*/
+}
+
+.portrait { /*class sector*/
+    width: 250px;
+}
+
+input { /*elemental assignment*//*input is the search box*/
+    border: 1 px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer; /*curser finger pointing img*/
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+
+}
